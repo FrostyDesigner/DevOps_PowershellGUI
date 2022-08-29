@@ -3,4 +3,4 @@ PowerShell Graphical User Interface that integrates with SQL Server and complete
 
 Customizable User Interface
 
-![alt text](https://github.com/FrostyDesigner/PowershellGraphicalUserInterface/blob/main/DevOpsPalette.png)
+![alt text](https://github.com/FrostyDesigner/PowershellGraphicalUserInterface/blob/main/DevOpsPalette1.png)
