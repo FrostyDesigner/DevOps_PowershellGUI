@@ -1,4 +1,4 @@
-# PowershelllGraphicalUserInterface
+# PowershellGraphicalUserInterface
 PowerShell Graphical User Interface that integrates with SQL Server and completes basic DevOps tasks. 
 
 Customizable User Interface
@@ -14,4 +14,4 @@ This is a fully completed template to get you started quickly.
 4. Count Transactions - Integrates with a SQL Server command sent ata a specified SQL Instance and returns the resuls in a grid view. 
 5. Create Web Page - Uses SQL Server to return query data and then uses that data to build a web page.
 
-Yes you ead that last one correctly, the report builds a web page with data returned from SQL Server :-)
+Yes you read that last one correctly... the report builds a web page with data returned from SQL Server :-)
