@@ -9,7 +9,7 @@ This is a fully completed template to get you started quickly.
 * Integration with SQL Server is included
 * Report Building via HTML is included
 * Endless possibilities with these 5 tools even before creating new tools
-* Application built with parameters and switches in mind (even though the example is not using them)
+* Application built with parameters and switches in mind (even though example is not using them)
 
 ![alt text](https://github.com/FrostyDesigner/PowershellGraphicalUserInterface/blob/main/DevOpsPalette1.png)
 
