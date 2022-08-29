@@ -4,7 +4,7 @@ PowerShell Graphical User Interface that integrates with SQL Server and complete
 This is a fully completed template to get you started quickly. 
 
 ## Application Features
-* Customizable User Interface
+* Completely Customizable User Interface
 * Interface has 5 tools integrated into the application that can be copied and edited
 * Integration with SQL Server is included
 * Report Building via HTML is included
