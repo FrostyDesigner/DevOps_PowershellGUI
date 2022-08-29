@@ -8,6 +8,7 @@ This is a fully completed template to get you started quickly.
 * Interface has 5 tools integrated into the application that can be copied and edited
 * Integration with SQL Server is included
 * Report Building via HTML is included
+* Endless possibilities with these 5 tools even before creating new tools
 
 ![alt text](https://github.com/FrostyDesigner/PowershellGraphicalUserInterface/blob/main/DevOpsPalette1.png)
 
