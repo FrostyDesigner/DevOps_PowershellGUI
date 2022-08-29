@@ -6,8 +6,8 @@ This is a fully completed template to get you started quickly.
 ## Application Features
 * Customizable User Interface
 * Interface has 5 tools integrated into the application that can be copied and edited
-* Integration with SQL Server built in
-* Report Building via HTML with SQL data built in
+* Integration with SQL Server is included
+* Report Building via HTML is included
 
 ![alt text](https://github.com/FrostyDesigner/PowershellGraphicalUserInterface/blob/main/DevOpsPalette1.png)
 
