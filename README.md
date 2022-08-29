@@ -5,13 +5,13 @@ This is a fully completed template to get you started quickly.
 
 ## Application Features
 * Customizable User Interface
-* User Interface currently has 5 tools to copy / edit
+* User Interface currently has 5 current tools integrated into the application that you can copy and edit to create additional tools
 * Integration with SQL Server built in
 * Report Building via HTML with SQL data built in
 
 ![alt text](https://github.com/FrostyDesigner/PowershellGraphicalUserInterface/blob/main/DevOpsPalette1.png)
 
-## There are 5 current tools integrated into the application that you can copy and edit to create additional tools. 
+## Template Base From Feature Descriptions
 1. Text Box - Provides a simple method to collect user supplied information. 
 2. Find Files - Does a search in a specified folder for a specified string and returns that data in a table.
 3. Create Folders - Creates 6 folders in target directories and then does a check to confirm the process.
