@@ -15,6 +15,7 @@ client GUID
 Function Invoke-udf_GetFiles {
 
     BEGIN {
+        [System.Windows.MessageBox]::Show("Mmessage Received - Invoke-udf_GetFiles")
 
         $Path = "\\Sharename\Deploy\TargetFolder"
         $PathArray = @()        
@@ -126,8 +127,6 @@ function ReadTrigger {
     param (    
         $xmlFilePath
     )
-
-    # $xmlFilePath = "C:\Users\ps.user12\Desktop\CustMast_Client-EBAY_7.trm"
 
     $value = "" | Select-Object -Property thOverride, countryDq, listData
 

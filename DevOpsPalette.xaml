@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1_wakaWaka"
         mc:Ignorable="d"
-        Title="DevOps Palette" Height="215" Width="198">
+        Title="DevOps Palette" Height="200" Width="300">
     <Grid>
         <Button x:Name="btnGetFiles" Content="Find Files" HorizontalAlignment="Center" Margin="0,55,0,0" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btnCreateFolders" Content="Create Folders" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Width="120"/>

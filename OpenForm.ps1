@@ -2,8 +2,8 @@
 
 $currentUser = [System.Environment]::UserName
 
-Import-Module "C:\Users\ps.user12\Documents\CustomPowershell\PowershellGUI\csUtilities.psm1.txt" -Force
-$xamlFile = "C:\Users\ps.user12\Documents\CustomPowershell\PowershellGUI\DevOpsPalette.xaml"
+Import-Module "C:\Users\currentUser\Documents\CustomPowershell\PowershellGUI\csUtilities.psm1" -Force
+$xamlFile = "C:\Users\currentUser\Documents\CustomPowershell\PowershellGUI\DevOpsPalette.xaml"
 
 
 $inputXAML = Get-Content $xamlFile -Raw
@@ -52,25 +52,29 @@ function calculation {
 }
 
 $var_btnGetFiles.Add_Click(
-    {     
+    {
+        [System.Windows.MessageBox]::Show("Invoke-udf_GetFiles")
         Invoke-Expression -Command "Invoke-udf_GetFiles"
     }
 )
 
 $var_btnCountTransactions.Add_Click(
     {     
+        [System.Windows.MessageBox]::Show("Invoke-udf_CountTransactions")
         Invoke-Expression -Command "Invoke-udf_CountTransactions"
     }
 )
 
 $var_btnCreateWebPage.Add_Click(
     {     
+        [System.Windows.MessageBox]::Show("Invoke-udf_CreateWebPage")
         Invoke-Expression -Command "Invoke-udf_CreateWebPage"
     }
 )
 
 $var_btnCreateFolders.Add_Click(
     {     
+        [System.Windows.MessageBox]::Show("btnCreateFolders")
         Invoke-Expression -Command "Invoke-udf_CreateFolders"
     }
 )

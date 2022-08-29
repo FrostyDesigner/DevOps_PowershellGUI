@@ -64,7 +64,7 @@ Function Invoke-udf_CreateWebPage {
 
     BEGIN {
 
-        Import-Module "C:\Users\ps.user12\Documents\CustomPowershell\csUtilities.psm1.txt" -force 
+        Import-Module "C:\Users\currentUser\Documents\CustomPowershell\csUtilities.psm1.txt" -force 
     }
     PROCESS { 
         if ($gridView.IsPresent) {
@@ -75,12 +75,12 @@ Function Invoke-udf_CreateWebPage {
         #The command below will combine all the information gathered into a single HTML report
         $Report = ConvertTo-HTML -Body "$TransactionCount" -Head $header -Title "Transaction Report" -PostContent "<p id='CreationDate'>Creation Date: $(Get-Date)</p>"
         #declare file full path
-        $outputFullPath = "D:\Temp\CustomerSupport\$($root_id)_wd_smoosh.html"
+        $outputFullPath = "C:\Users\currentUser\Documents\CustomPowershell\PowershellGUI\$($root_id)_wd_smoosh.html"
         #The command below will generate the report to an HTML file
         $Report | Out-File $outputFullPath
 
         # open the following items
-        Invoke-Item "D:\Temp\CustomerSupport"
+        Invoke-Item "C:\Users\currentUser\Documents\CustomPowershell\PowershellGUI"
         Invoke-Item $outputFullPath
         # Invoke-Item $report_user_FullPath
         # Invoke-Item $report_batch_config_FullPath
@@ -89,7 +89,7 @@ Function Invoke-udf_CreateWebPage {
     }        
     END { 
         Write-Output "Complete"
-        Write-Output "Documents created at 'D:\Temp\CustomerSupport'."
+        Write-Output "Documents created at 'C:\Users\currentUser\Documents\CustomPowershell\PowershellGUI'."
     }
     }
 
