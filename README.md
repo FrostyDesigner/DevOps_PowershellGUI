@@ -1,7 +1,10 @@
-# PowershellGraphicalUserInterface
+# DevOps_PowershellGUI
 PowerShell Graphical User Interface that integrates with SQL Server and completes basic DevOps tasks. 
 
-Customizable User Interface
+* Customizable User Interface
+* User Interface currently has 5 tools to copy / edit
+* Integration with SQL Server built in
+* Report Building via HTML with SQL data built in
 
 ![alt text](https://github.com/FrostyDesigner/PowershellGraphicalUserInterface/blob/main/DevOpsPalette1.png)
 
