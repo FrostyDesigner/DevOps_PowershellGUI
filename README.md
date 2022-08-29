@@ -5,7 +5,7 @@ This is a fully completed template to get you started quickly.
 
 ## Application Features
 * Customizable User Interface
-* User Interface currently has 5 current tools integrated into the application that you can copy and edit to create additional tools
+* Interface has 5 tools integrated into the application that can be copied and edited
 * Integration with SQL Server built in
 * Report Building via HTML with SQL data built in
 
