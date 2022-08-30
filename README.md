@@ -10,6 +10,7 @@ This is a fully completed template to get you started quickly.
 * Report Building via HTML is included
 * Endless possibilities with these 5 tools even before creating new tools
 * Application built with parameters and switches in mind (even though example is not using them)
+* Obviously you will need to edit file paths, server names and datbase instances
 
 ![alt text](https://github.com/FrostyDesigner/PowershellGraphicalUserInterface/blob/main/DevOpsPalette1.png)
 
