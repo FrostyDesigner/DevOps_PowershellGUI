@@ -1,7 +1,7 @@
 # DevOps_PowershellGUI
 PowerShell Graphical User Interface that integrates with SQL Server and completes basic DevOps tasks. 
 
-This is a fully completed template to get you started quickly. 
+This is a fully completed template to get you started quickly. This is a template based on a model I built in our shop that has over 30 unique tools that can be chained together for productivity. 
 
 ## Application Features
 * Completely Customizable User Interface
